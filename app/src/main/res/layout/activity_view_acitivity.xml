@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    tools:context=".View.ViewAcitivity">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_weight="21"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/auto2"
+                android:layout_weight="8"
+                />
+
+            <TextView
+                android:textColor="@color/colorBlack"
+                android:id="@+id/tvAuto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Auto Complete Textview"
+                android:textStyle="bold"
+                android:layout_weight="5"
+                android:textSize="19dp"
+                />
+
+            <ImageView
+                android:id="@+id/imgPlayAuto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/play3"
+                android:layout_weight="8"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_weight="21"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/list"
+                android:layout_weight="8"
+                />
+
+            <TextView
+                android:textColor="@color/colorBlack"
+                android:id="@+id/tvListView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ListView - SpinnerView"
+                android:textStyle="bold"
+                android:layout_weight="5"
+                android:textSize="20dp"
+                />
+
+            <ImageView
+                android:id="@+id/imgPlayList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/play3"
+                android:layout_weight="8"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_weight="21"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/web2"
+                android:layout_weight="8"
+                />
+
+            <TextView
+                android:textColor="@color/colorBlack"
+                android:id="@+id/tvWeb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Web View"
+                android:textStyle="bold"
+                android:layout_weight="5"
+                android:textSize="20dp"
+                />
+
+            <ImageView
+                android:id="@+id/imgPlayWeb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/play3"
+                android:layout_weight="8"
+                />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

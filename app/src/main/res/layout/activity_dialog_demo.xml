@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background2"
+    tools:context=".DialogDemo">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đủ 18+ Chưa Bạn Hiền?"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_margin="30dp"
+        android:padding="20dp"
+        android:id="@+id/btnDialog"
+        />
+
+    <TextView
+        android:id="@+id/tvHoy01"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="normal"
+        android:layout_gravity="center"
+        android:text="Người nào làm ra, sao chép, lưu hành,
+vận chuyển, mua bán, tàng trữ nhằm phổ biến sách, báo, tranh, ảnh, phim, nhạc hoặc những vật phẩm khác có nội dung khiêu dâm, đồi trụy hoặc hành vi khác truyền bá vật phẩm đồi trụy
+thuộc một trong các trường hợp sau đây, thì bị phạt tiền từ 10.000.000 đồng đến 100.000.000 đồng, phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm"
+        />
+
+    <TextView
+        android:id="@+id/tvHoy02"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:textColor="@color/colorRed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chúng tôi không cổ vũ việc bạn tiếp tục vào trang Web sau đây."
+        />
+
+</LinearLayout>
